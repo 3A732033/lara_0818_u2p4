@@ -1,10 +1,6 @@
 <?php
-
 namespace App\Http\Controllers;
-
-use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-
 class PostsController extends Controller
 {
     /**
@@ -28,7 +24,6 @@ class PostsController extends Controller
     {
         return view('contact');
     }
-
     /**
      * Show the form for creating a new resource.
      *
@@ -38,7 +33,6 @@ class PostsController extends Controller
     {
         //
     }
-
     /**
      * Store a newly created resource in storage.
      *
@@ -49,7 +43,6 @@ class PostsController extends Controller
     {
         //
     }
-
     /**
      * Display the specified resource.
      *
